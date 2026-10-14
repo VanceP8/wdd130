@@ -38,7 +38,7 @@ footer p a:hover {
     grid-column: 1/4;
     grid-row: 1/3;
 }
-#hero-msg h4 {
+#hero-msg h1 {
     color: white;
 }
 #hero-img {
@@ -55,7 +55,7 @@ footer p a:hover {
     margin-top: 100px;
 }
 .card-img, .mountains {
-    width: 100%;
+    width: 45%;
 }         
 .card-img {
     border: 10px solid #d9c2a3;
