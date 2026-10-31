@@ -1,0 +1,87 @@
+body {
+    background-color: #839788;
+    font-family: Merriweather, Robot Slab, Raleway;
+    Margin: 0;
+    color: black;
+}
+
+.page-header {
+    padding: 15px 30px;
+    background-color: #EEE0CB;
+}
+
+.page-header h1 {
+    font-size: 30px;
+    color:#BAA898;
+}
+
+.portal-page {
+    display: grid;
+    justify-items: center;
+    gap: 40px;
+    padding: 30px;
+}
+
+.profile-card {
+    background-color: white;
+    width: 60%;
+    max-width: 550px;
+    padding: 25px;
+    border: 2px solid #BAA898;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.profile-card h2 {
+    color: #BAA898;
+    font-size: 28px;
+}
+
+.profile-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.personal-info {
+    text-align: left;
+    line-height: 2;
+    margin-top: 20px;
+}
+
+.bio {
+    line-height: 1.7;
+    padding: 15px;
+}
+
+.websites-section {
+    background-color: white;
+    width: 80%;
+    padding: 20px;
+    border: 2px solid #BAA898;
+    border-radius: 15px;
+
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+
+.websites-section h2 {
+    grid-column: 1/3;
+    text-align: center;
+    color: #BAA898;
+}
+
+.websites-section ul {
+    line-height: 2;
+}
+
+.websites-section img {
+    width: 110px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
